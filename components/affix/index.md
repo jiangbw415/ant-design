@@ -20,4 +20,5 @@ english: Affix
 |-------------|----------------|--------------------|--------------|
 | offsetTop    | 距离窗口顶部达到指定偏移量后触发   | Number |         |
 | offsetBottom | 距离窗口底部达到指定偏移量后触发   | Number |         |
+| target | 设置 `Affix` 相对于其固定的元素，值为该元素的 id，若不设置则相对于 `window` 定位 | String |    |
 | onChange | 固定状态改变时触发的回调函数   | Function | 无        |
